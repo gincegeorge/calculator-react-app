@@ -1,6 +1,6 @@
 # calculator-react-app
 
-##REACT JS, EXPRESS, NODEJS
+## REACT JS, EXPRESS, NODEJS
 
 [live link](https://calculator-react-app-rosy.vercel.app/)
 

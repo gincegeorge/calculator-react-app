@@ -17,11 +17,6 @@ function App() {
     setMonitor(calculatedSum);
   }, [calculatedSum]);
 
-  // useEffect(() => {
-  //   document.addEventListener("keyup", getKeyPress);
-  //   return () => document.removeEventListener("keyup", getKeyPress);
-  // }, []);
-
   //getting input number
   const inputNumTotal = (num) => {
     if (decimal) {
@@ -75,6 +70,7 @@ function App() {
     return;
   };
 
+  //equal
   const equal = () => {
     calculate();
     setOperator("");
